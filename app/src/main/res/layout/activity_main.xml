@@ -10,8 +10,39 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="thegang.zerosensing.MainActivity">
 
+    <Button
+        android:text="Take the test!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/begin"
+        android:layout_weight="1"
+        style="@android:style/Widget.Material.Button"
+        android:layout_marginBottom="132dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:elevation="10dp"
+        android:textAppearance="@android:style/TextAppearance.Material.Button" />
+
+    <Button
+        android:text="Quit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/quit"
+        android:layout_alignTop="@+id/begin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        style="@android:style/Widget.Material.Button"
+        android:elevation="10dp"
+        android:textAppearance="@android:style/TextAppearance.Material.Button" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Zero Sensing"
+        android:id="@+id/title"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:layout_marginTop="71dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>
